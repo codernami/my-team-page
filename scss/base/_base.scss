@@ -1,0 +1,27 @@
+html {
+    font-size: 16px;
+}
+
+body { 
+    min-height: 100vh;
+    background-color: $bg-body;
+}
+
+.container {
+    padding: 1rem;
+    padding-top: 3rem;
+    margin: auto;
+    max-width: 1440px;
+
+    @media screen and (min-width: 768px) {
+        padding: 2rem;
+        padding-top: 3rem;
+    }
+    @media screen and (min-width: 1200px) {
+        padding: 4rem;
+    }
+    @media screen and (min-width: 1440px) {
+        padding: 12rem;
+        padding-top: 6rem;
+    }
+}
