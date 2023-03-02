@@ -1,9 +1,11 @@
 @use'vendors/normalize';
 
 @use'abstracts/variables';
+@use'abstracts/breakpoints';
 
-@use'base/base';
 @use'base/fonts';
 
+@use'layout/body';
 @use'layout/header';
 @use'layout/grid';
+@use'layout/item';

@@ -1,0 +1,13 @@
+@use '../abstracts' as *;
+@use '../base' as *;
+
+
+body { 
+    min-height: 100vh;
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+    font-family: $main-font;
+    font-size: clamp(14px, 3vw, 16px);
+    background-color: $light-gray;
+}

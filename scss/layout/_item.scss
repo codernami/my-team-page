@@ -1,0 +1,35 @@
+@use '../abstracts' as *;
+@use '../base' as *;
+
+.item {
+    margin: 0;
+
+    &__img {
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    }
+    &__name {
+        padding-top: .7rem;
+        font-weight: bold;
+        line-height: 21px;
+        color: $dark-blue;
+        
+        @include medium {        
+            font-size: 22px;    
+        }
+    }
+    &__position {
+        height: fit-content;
+        padding: .5rem .2rem;
+        padding-top: .4rem;
+        margin: 0;
+        margin-left: .3rem;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        color: $white;   
+        background-color: $dark-blue;
+        box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.15);
+    }
+}
